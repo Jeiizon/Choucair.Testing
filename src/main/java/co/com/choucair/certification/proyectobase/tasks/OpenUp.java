@@ -12,9 +12,9 @@ public class OpenUp implements Task {
         return Tasks.instrumented(OpenUp.class);
     }
 
+
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Open.browserOn(choucairAcademyPage));
-
     }
 }
