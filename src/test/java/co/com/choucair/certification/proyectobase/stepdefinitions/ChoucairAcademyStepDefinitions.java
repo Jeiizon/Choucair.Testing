@@ -5,13 +5,11 @@ import co.com.choucair.certification.proyectobase.questions.Answer;
 import co.com.choucair.certification.proyectobase.tasks.Login;
 import co.com.choucair.certification.proyectobase.tasks.OpenUp;
 import co.com.choucair.certification.proyectobase.tasks.Search;
-import com.google.inject.internal.cglib.core.$CodeEmitter;
 import cucumber.api.PendingException;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
-
+import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
